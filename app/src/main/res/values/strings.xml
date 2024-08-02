@@ -1,0 +1,112 @@
+<resources>
+  <string name="app_name">Mushy</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <string-array name="cap_shape">
+    <item>Bell</item>
+    <item>Conical</item>
+    <item>Convex</item>
+    <item>Flat</item>
+    <item>Knobbed</item>
+  </string-array>
+
+  <string-array name="cap_surface">
+    <item>Scaly</item>
+    <item>Smooth</item>
+    <item>Fibrous</item>
+    <item>Grooves</item>
+  </string-array>
+
+  <string-array name="cap_color">
+    <item>Brown</item>
+    <item>Buff</item>
+    <item>Cinnamon</item>
+    <item>Gray</item>
+    <item>Green</item>
+    <item>Pink</item>
+    <item>Purple</item>
+    <item>Red</item>
+    <item>White</item>
+    <item>Yellow</item>
+  </string-array>
+
+  <string-array name="bruises">
+    <item>Yes</item>
+    <item>No</item>
+  </string-array>
+
+  <string-array name="spore_print_color">
+    <item>Black</item>
+    <item>Brown</item>
+    <item>Buff</item>
+    <item>Chocolate</item>
+    <item>Green</item>
+    <item>Orange</item>
+    <item>Purple</item>
+    <item>White</item>
+    <item>Yellow</item>
+  </string-array>
+
+  <string-array name="gill_size">
+    <item>Broad</item>
+    <item>Narrow</item>
+  </string-array>
+
+  <string-array name="habitat">
+    <item>Grasses</item>
+    <item>Leaves</item>
+    <item>Meadows</item>
+    <item>Paths</item>
+    <item>Urban</item>
+    <item>Waste</item>
+    <item>Wood</item>
+  </string-array>
+
+  <string-array name="population">
+    <item>Several</item>
+    <item>Solitary</item>
+    <item>Scattered</item>
+    <item>Numerous</item>
+    <item>Abundant</item>
+    <item>Clustered</item>
+  </string-array>
+
+  <string-array name="ring_type">
+    <item>None</item>
+    <item>Pendant</item>
+    <item>Evanescent</item>
+    <item>Large</item>
+    <item>Flaring</item>
+  </string-array>
+
+  <string-array name="gill_color">
+    <item>Black</item>
+    <item>Brown</item>
+    <item>Buff</item>
+    <item>Chocolate</item>
+    <item>Gray</item>
+    <item>Pink</item>
+    <item>White</item>
+    <item>Yellow</item>
+    <item>Purple</item>
+    <item>Red</item>
+    <item>Orange</item>
+    <item>Green</item>
+  </string-array>
+
+  <string-array name="ring_number">
+    <item>One</item>
+    <item>Two</item>
+    <item>None</item>
+  </string-array>
+  <string name="muchammad_romadona">Muchammad Romadona</string>
+  <string name="romadonadoni03_gmail_com">romadonadoni03@gmail.com</string>
+  <string name="github">My Github : github.com/dontkeep</string>
+  <string name="artstation">My Artstation : artstation.com/loyaltyyy</string>
+  <string name="dataset_desc">Dataset ini berisi informasi mengenai berbagai jenis jamur dengan total 8124 entri dan 23 kolom. Berikut adalah deskripsi kolom-kolom dalam dataset ini: \n
+    \n
+Semua kolom dalam dataset ini memiliki tipe data objektif (kategori). Dataset ini berguna untuk analisis klasifikasi, terutama dalam membedakan antara jamur yang beracun dan yang dapat dimakan berdasarkan karakteristiknya.</string>
+
+  <string name="dataset_link">Dataset : kaggle.com/datasets/uciml/mushroom-classification</string>
+</resources>

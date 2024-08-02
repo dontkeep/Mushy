@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Title -->
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Arsitektur Model"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:layout_gravity="center"
+      android:padding="8dp" />
+
+    <!-- Model Architecture Image -->
+    <ImageView
+      android:id="@+id/model_image"
+      android:layout_width="150dp"
+      android:layout_height="300dp"
+      android:layout_gravity="center"
+      android:layout_margin="8dp"
+      android:contentDescription="Model Architecture"
+      android:src="@drawable/model_achitect" />
+
+    <!-- Model Description -->
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Deskripsi Model"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:layout_gravity="center"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Model ini adalah model Sequential yang terdiri dari beberapa layer Dense."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Layer pertama memiliki 8 neuron dengan fungsi aktivasi ReLU dan input shape sesuai dengan data input."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Layer kedua memiliki 16 neuron dengan fungsi aktivasi ReLU."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Layer ketiga memiliki 32 neuron dengan fungsi aktivasi ReLU."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Layer keempat memiliki 16 neuron dengan fungsi aktivasi ReLU."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Layer terakhir memiliki 1 neuron dengan fungsi aktivasi Sigmoid."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+
+
+    <ImageView
+      android:id="@+id/model_image_visualized"
+      android:layout_width="300dp"
+      android:layout_height="200dp"
+      android:layout_gravity="center"
+      android:layout_margin="8dp"
+      android:src="@drawable/nn" />
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Model ini dikompilasi menggunakan optimizer Adam, dengan loss function Binary Crossentropy dan metrik akurasi."
+      android:textSize="16sp"
+      android:justificationMode="inter_word"
+      android:padding="8dp" />
+  </LinearLayout>
+</ScrollView>

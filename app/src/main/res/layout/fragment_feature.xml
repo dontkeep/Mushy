@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Title -->
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Fitur Yang Digunakan"
+      android:textSize="24sp"
+      android:textStyle="bold"
+      android:layout_gravity="center"
+      android:padding="8dp" />
+
+    <!-- TableLayout for features -->
+    <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:padding="8dp"
+      android:background="@drawable/table_border">
+
+      <!-- Gill Color -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Gill Color:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Warna insang jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Ring Number -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ring Number:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Jumlah cincin pada batang jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Ring Type -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Ring Type:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Jenis cincin pada batang jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Population -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Population:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Kepadatan populasi jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Habitat -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Habitat:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Habitat tempat jamur tumbuh (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Bruises -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Bruises:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Apakah jamur memar atau tidak (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Gill Size -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Gill Size:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Ukuran insang jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Spore Print Color -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Spore Print Color:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Warna cetakan spora jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Cap Shape -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cap Shape:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Bentuk tudung jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Cap Surface -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cap Surface:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Permukaan tudung jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+      <!-- Cap Color -->
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:padding="4dp"
+        android:background="@drawable/row_border">
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Cap Color:"
+          android:textSize="16sp"
+          android:layout_marginEnd="16dp" />
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Warna tudung jamur (String)"
+          android:textSize="16sp"
+          android:layout_weight="1" />
+      </TableRow>
+
+    </TableLayout>
+  </LinearLayout>
+</ScrollView>

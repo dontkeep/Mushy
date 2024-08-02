@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--  TODO add an icon-->
+
+  <item
+    android:id="@+id/nav_dataset"
+    android:enabled="true"
+    android:icon="@drawable/baseline_dataset_24"
+    android:title="Dataset"/>
+
+  <item
+    android:id="@+id/nav_feature"
+    android:enabled="true"
+    android:icon="@drawable/baseline_featured_play_list_24"
+    android:title="Feature"/>
+
+  <item
+    android:id="@+id/nav_home"
+    android:enabled="true"
+    android:icon="@drawable/baseline_home_24"
+    android:title="Home"/>
+
+  <item
+    android:id="@+id/nav_model"
+    android:enabled="true"
+    android:icon="@drawable/baseline_model_training_24"
+    android:title="Model"/>
+
+  <item
+    android:id="@+id/nav_aboutme"
+    android:enabled="true"
+    android:icon="@drawable/baseline_person_24"
+    android:title="About Me"/>
+</menu>

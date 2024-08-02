@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  tools:context=".ui.DatasetFragment"
+  android:layout_marginBottom="5dp"
+  >
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <HorizontalScrollView
+    android:id="@+id/HSView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <TableLayout
+      android:id="@+id/tableLayout"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="16dp"
+      android:stretchColumns="*">
+    </TableLayout>
+
+  </HorizontalScrollView>
+
+  <TextView
+    android:id="@+id/textDataset1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/HSView"
+    android:text="@string/dataset_desc"
+    android:layout_margin="16dp"
+    android:layout_marginBottom="30dp"
+    android:justificationMode="inter_word"
+    />
+
+  <TextView
+    android:id="@+id/textDatasetLink"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/textDataset1"
+    android:linksClickable="true"
+    android:autoLink="web"
+    android:text="@string/dataset_link"
+    android:layout_margin="16dp"
+    android:justificationMode="inter_word"
+    />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
